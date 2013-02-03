@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE45023616B802EE003651FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE45023516B802EE003651FD /* UIKit.framework */; };
+		DE45023816B802EE003651FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE45023716B802EE003651FD /* Foundation.framework */; };
+		DE45023A16B802EE003651FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE45023916B802EE003651FD /* CoreGraphics.framework */; };
+		DE45024016B802EE003651FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE45023E16B802EE003651FD /* InfoPlist.strings */; };
+		DE45024216B802EE003651FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE45024116B802EE003651FD /* main.m */; };
+		DE45024616B802EE003651FD /* RKTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE45024516B802EE003651FD /* RKTAppDelegate.m */; };
+		DE45024816B802EE003651FD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE45024716B802EE003651FD /* Default.png */; };
+		DE45024A16B802EE003651FD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE45024916B802EE003651FD /* Default@2x.png */; };
+		DE45024C16B802EE003651FD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE45024B16B802EE003651FD /* Default-568h@2x.png */; };
+		DE45025516B8054E003651FD /* Storyboard-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE45025416B8054E003651FD /* Storyboard-iPhone.storyboard */; };
+		DE45025816B80592003651FD /* RKTVehicleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE45025716B80592003651FD /* RKTVehicleViewController.m */; };
+		DE45025F16B85756003651FD /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE45025D16B85756003651FD /* Model.xcdatamodeld */; };
+		DE4CDD6316BC382300FFEE52 /* Aeroplane.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4CDD6016BC382300FFEE52 /* Aeroplane.m */; };
+		DE4CDD6416BC382300FFEE52 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4CDD6216BC382300FFEE52 /* Category.m */; };
+		DE4CDD6916BC383700FFEE52 /* _Aeroplane.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4CDD6616BC383700FFEE52 /* _Aeroplane.m */; };
+		DE4CDD6A16BC383700FFEE52 /* _Category.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4CDD6816BC383700FFEE52 /* _Category.m */; };
+		DE4CDD7416BD5F8B00FFEE52 /* _RemoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4CDD7116BD5F8B00FFEE52 /* _RemoteObject.m */; };
+		DE4CDD7516BD5F8B00FFEE52 /* RemoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4CDD7316BD5F8B00FFEE52 /* RemoteObject.m */; };
+		FE39103983D040FEA25B6867 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77604851BF294B8FB72CC7FA /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77604851BF294B8FB72CC7FA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C2EC10BB124987AB8FA857 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		DE45023216B802EE003651FD /* RestKitTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestKitTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE45023516B802EE003651FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE45023716B802EE003651FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE45023916B802EE003651FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE45023D16B802EE003651FD /* RestKitTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RestKitTutorial-Info.plist"; sourceTree = "<group>"; };
+		DE45023F16B802EE003651FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE45024116B802EE003651FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE45024316B802EE003651FD /* RestKitTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RestKitTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		DE45024416B802EE003651FD /* RKTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKTAppDelegate.h; sourceTree = "<group>"; };
+		DE45024516B802EE003651FD /* RKTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKTAppDelegate.m; sourceTree = "<group>"; };
+		DE45024716B802EE003651FD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DE45024916B802EE003651FD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DE45024B16B802EE003651FD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DE45025416B8054E003651FD /* Storyboard-iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Storyboard-iPhone.storyboard"; sourceTree = "<group>"; };
+		DE45025616B80592003651FD /* RKTVehicleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKTVehicleViewController.h; sourceTree = "<group>"; };
+		DE45025716B80592003651FD /* RKTVehicleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKTVehicleViewController.m; sourceTree = "<group>"; };
+		DE45025E16B85756003651FD /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		DE4CDD5F16BC382300FFEE52 /* Aeroplane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aeroplane.h; sourceTree = "<group>"; };
+		DE4CDD6016BC382300FFEE52 /* Aeroplane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aeroplane.m; sourceTree = "<group>"; };
+		DE4CDD6116BC382300FFEE52 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		DE4CDD6216BC382300FFEE52 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		DE4CDD6516BC383700FFEE52 /* _Aeroplane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Aeroplane.h; sourceTree = "<group>"; };
+		DE4CDD6616BC383700FFEE52 /* _Aeroplane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Aeroplane.m; sourceTree = "<group>"; };
+		DE4CDD6716BC383700FFEE52 /* _Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Category.h; sourceTree = "<group>"; };
+		DE4CDD6816BC383700FFEE52 /* _Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Category.m; sourceTree = "<group>"; };
+		DE4CDD7016BD5F8B00FFEE52 /* _RemoteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RemoteObject.h; sourceTree = "<group>"; };
+		DE4CDD7116BD5F8B00FFEE52 /* _RemoteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RemoteObject.m; sourceTree = "<group>"; };
+		DE4CDD7216BD5F8B00FFEE52 /* RemoteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteObject.h; sourceTree = "<group>"; };
+		DE4CDD7316BD5F8B00FFEE52 /* RemoteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE45022F16B802EE003651FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE45023616B802EE003651FD /* UIKit.framework in Frameworks */,
+				DE45023816B802EE003651FD /* Foundation.framework in Frameworks */,
+				DE45023A16B802EE003651FD /* CoreGraphics.framework in Frameworks */,
+				FE39103983D040FEA25B6867 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE45022916B802EE003651FD = {
+			isa = PBXGroup;
+			children = (
+				DE45023B16B802EE003651FD /* RestKitTutorial */,
+				DE45023416B802EE003651FD /* Frameworks */,
+				DE45023316B802EE003651FD /* Products */,
+				A4C2EC10BB124987AB8FA857 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DE45023316B802EE003651FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE45023216B802EE003651FD /* RestKitTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE45023416B802EE003651FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE45023516B802EE003651FD /* UIKit.framework */,
+				DE45023716B802EE003651FD /* Foundation.framework */,
+				DE45023916B802EE003651FD /* CoreGraphics.framework */,
+				77604851BF294B8FB72CC7FA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE45023B16B802EE003651FD /* RestKitTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				DE4CDD6E16BC3DCA00FFEE52 /* CoreData */,
+				DE45025916B80598003651FD /* View Controllers */,
+				DE45024416B802EE003651FD /* RKTAppDelegate.h */,
+				DE45024516B802EE003651FD /* RKTAppDelegate.m */,
+				DE45023C16B802EE003651FD /* Supporting Files */,
+			);
+			path = RestKitTutorial;
+			sourceTree = "<group>";
+		};
+		DE45023C16B802EE003651FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE45023D16B802EE003651FD /* RestKitTutorial-Info.plist */,
+				DE45023E16B802EE003651FD /* InfoPlist.strings */,
+				DE45024116B802EE003651FD /* main.m */,
+				DE45024316B802EE003651FD /* RestKitTutorial-Prefix.pch */,
+				DE45024716B802EE003651FD /* Default.png */,
+				DE45024916B802EE003651FD /* Default@2x.png */,
+				DE45024B16B802EE003651FD /* Default-568h@2x.png */,
+				DE45025416B8054E003651FD /* Storyboard-iPhone.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE45025916B80598003651FD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE45025616B80592003651FD /* RKTVehicleViewController.h */,
+				DE45025716B80592003651FD /* RKTVehicleViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DE4CDD6E16BC3DCA00FFEE52 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DE45025D16B85756003651FD /* Model.xcdatamodeld */,
+				DE4CDD6516BC383700FFEE52 /* _Aeroplane.h */,
+				DE4CDD6616BC383700FFEE52 /* _Aeroplane.m */,
+				DE4CDD6716BC383700FFEE52 /* _Category.h */,
+				DE4CDD6816BC383700FFEE52 /* _Category.m */,
+				DE4CDD5F16BC382300FFEE52 /* Aeroplane.h */,
+				DE4CDD6016BC382300FFEE52 /* Aeroplane.m */,
+				DE4CDD6116BC382300FFEE52 /* Category.h */,
+				DE4CDD6216BC382300FFEE52 /* Category.m */,
+				DE4CDD7016BD5F8B00FFEE52 /* _RemoteObject.h */,
+				DE4CDD7116BD5F8B00FFEE52 /* _RemoteObject.m */,
+				DE4CDD7216BD5F8B00FFEE52 /* RemoteObject.h */,
+				DE4CDD7316BD5F8B00FFEE52 /* RemoteObject.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE45023116B802EE003651FD /* RestKitTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE45024F16B802EE003651FD /* Build configuration list for PBXNativeTarget "RestKitTutorial" */;
+			buildPhases = (
+				DE4CDD6C16BC3CF700FFEE52 /* ShellScript */,
+				DE45022E16B802EE003651FD /* Sources */,
+				DE45022F16B802EE003651FD /* Frameworks */,
+				DE45023016B802EE003651FD /* Resources */,
+				192F05C6C4804A0F9A34D691 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestKitTutorial;
+			productName = RestKitTutorial;
+			productReference = DE45023216B802EE003651FD /* RestKitTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE45022A16B802EE003651FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AGE;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alexander G Edge";
+			};
+			buildConfigurationList = DE45022D16B802EE003651FD /* Build configuration list for PBXProject "RestKitTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE45022916B802EE003651FD;
+			productRefGroup = DE45023316B802EE003651FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE45023116B802EE003651FD /* RestKitTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE45023016B802EE003651FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE45024016B802EE003651FD /* InfoPlist.strings in Resources */,
+				DE45024816B802EE003651FD /* Default.png in Resources */,
+				DE45024A16B802EE003651FD /* Default@2x.png in Resources */,
+				DE45024C16B802EE003651FD /* Default-568h@2x.png in Resources */,
+				DE45025516B8054E003651FD /* Storyboard-iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		192F05C6C4804A0F9A34D691 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		DE4CDD6C16BC3CF700FFEE52 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mogenerator --model \"${PROJECT_DIR}/RestKitTutorial/Model.xcdatamodeld/Model.xcdatamodel\" --output-dir \"${PROJECT_DIR}/RestKitTutorial\" --template-var arc=true";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE45022E16B802EE003651FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE45024216B802EE003651FD /* main.m in Sources */,
+				DE45024616B802EE003651FD /* RKTAppDelegate.m in Sources */,
+				DE45025816B80592003651FD /* RKTVehicleViewController.m in Sources */,
+				DE45025F16B85756003651FD /* Model.xcdatamodeld in Sources */,
+				DE4CDD6316BC382300FFEE52 /* Aeroplane.m in Sources */,
+				DE4CDD6416BC382300FFEE52 /* Category.m in Sources */,
+				DE4CDD6916BC383700FFEE52 /* _Aeroplane.m in Sources */,
+				DE4CDD6A16BC383700FFEE52 /* _Category.m in Sources */,
+				DE4CDD7416BD5F8B00FFEE52 /* _RemoteObject.m in Sources */,
+				DE4CDD7516BD5F8B00FFEE52 /* RemoteObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE45023E16B802EE003651FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE45023F16B802EE003651FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE45024D16B802EE003651FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE45024E16B802EE003651FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE45025016B802EE003651FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C2EC10BB124987AB8FA857 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestKitTutorial/RestKitTutorial-Prefix.pch";
+				INFOPLIST_FILE = "RestKitTutorial/RestKitTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE45025116B802EE003651FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C2EC10BB124987AB8FA857 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestKitTutorial/RestKitTutorial-Prefix.pch";
+				INFOPLIST_FILE = "RestKitTutorial/RestKitTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE45022D16B802EE003651FD /* Build configuration list for PBXProject "RestKitTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE45024D16B802EE003651FD /* Debug */,
+				DE45024E16B802EE003651FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE45024F16B802EE003651FD /* Build configuration list for PBXNativeTarget "RestKitTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE45025016B802EE003651FD /* Debug */,
+				DE45025116B802EE003651FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE45025D16B85756003651FD /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DE45025E16B85756003651FD /* Model.xcdatamodel */,
+			);
+			currentVersion = DE45025E16B85756003651FD /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DE45022A16B802EE003651FD /* Project object */;
+}

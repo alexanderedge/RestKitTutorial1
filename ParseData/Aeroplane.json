@@ -1,0 +1,35 @@
+{ "results" : [
+   {
+      "objectId":"z9qVRths",
+      "manufacturer":"Boeing",
+      "model":"747",
+      "category":{
+         "__type": "Pointer",
+         "className": "Category",
+         "objectId":"4DxwAz2K"
+      },
+      "passengers":"366"
+   },
+   {
+      "objectId":"jXLC0PDG",
+      "manufacturer":"Airbus",
+      "model":"A380",
+      "category":{
+         "__type": "Pointer",
+         "className": "Category",
+         "objectId":"4DxwAz2K"
+      },
+      "passengers":"853"
+   },
+   {
+      "objectId":"w01qY3bR",
+      "manufacturer":"Cessna",
+      "model":"172",
+      "category":{
+         "__type": "Pointer",
+         "className": "Category",
+         "objectId":"Ghueb4xy"
+      },
+      "passengers":"3"
+   }
+]}
