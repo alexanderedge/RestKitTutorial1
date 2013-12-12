@@ -7,6 +7,8 @@
 //
 
 #import "RKTVehicleViewController.h"
+#import "RKTCategory.h"
+#import "RKTAeroplane.h"
 
 @interface RKTVehicleViewController () <NSFetchedResultsControllerDelegate>
 {
@@ -30,7 +32,7 @@
     
     if (!_fetchedResultsController) {
         
-        NSFetchRequest *fetchRequest = [NSFetchRequest fetchRequestWithEntityName:NSStringFromClass([Aeroplane class])];
+        NSFetchRequest *fetchRequest = [NSFetchRequest fetchRequestWithEntityName:NSStringFromClass([RKTAeroplane class])];
         
         fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"category.name" ascending:YES]];
         
@@ -121,7 +123,7 @@
     
     // Configure the cell...
     
-    Aeroplane *aeroplane = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    RKTAeroplane *aeroplane = [self.fetchedResultsController objectAtIndexPath:indexPath];
     
     cell.textLabel.text = aeroplane.model;
     cell.detailTextLabel.text = aeroplane.manufacturer;
