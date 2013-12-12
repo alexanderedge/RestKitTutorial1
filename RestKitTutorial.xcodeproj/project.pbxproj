@@ -19,12 +19,12 @@
 		DE45025516B8054E003651FD /* Storyboard-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE45025416B8054E003651FD /* Storyboard-iPhone.storyboard */; };
 		DE45025816B80592003651FD /* RKTVehicleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE45025716B80592003651FD /* RKTVehicleViewController.m */; };
 		DE45025F16B85756003651FD /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE45025D16B85756003651FD /* Model.xcdatamodeld */; };
-		DE4CDD6316BC382300FFEE52 /* Aeroplane.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4CDD6016BC382300FFEE52 /* Aeroplane.m */; };
-		DE4CDD6416BC382300FFEE52 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4CDD6216BC382300FFEE52 /* Category.m */; };
-		DE4CDD6916BC383700FFEE52 /* _Aeroplane.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4CDD6616BC383700FFEE52 /* _Aeroplane.m */; };
-		DE4CDD6A16BC383700FFEE52 /* _Category.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4CDD6816BC383700FFEE52 /* _Category.m */; };
-		DE4CDD7416BD5F8B00FFEE52 /* _RemoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4CDD7116BD5F8B00FFEE52 /* _RemoteObject.m */; };
-		DE4CDD7516BD5F8B00FFEE52 /* RemoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4CDD7316BD5F8B00FFEE52 /* RemoteObject.m */; };
+		DE4CDD6316BC382300FFEE52 /* RKTAeroplane.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4CDD6016BC382300FFEE52 /* RKTAeroplane.m */; };
+		DE4CDD6416BC382300FFEE52 /* RKTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4CDD6216BC382300FFEE52 /* RKTCategory.m */; };
+		DE4CDD7516BD5F8B00FFEE52 /* RKTRemoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4CDD7316BD5F8B00FFEE52 /* RKTRemoteObject.m */; };
+		DEDAB6A71859C1EE007795CE /* _RKTAeroplane.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDAB6A21859C1EE007795CE /* _RKTAeroplane.m */; };
+		DEDAB6A81859C1EE007795CE /* _RKTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDAB6A41859C1EE007795CE /* _RKTCategory.m */; };
+		DEDAB6A91859C1EE007795CE /* _RKTRemoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDAB6A61859C1EE007795CE /* _RKTRemoteObject.m */; };
 		FE39103983D040FEA25B6867 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77604851BF294B8FB72CC7FA /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -48,18 +48,18 @@
 		DE45025616B80592003651FD /* RKTVehicleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKTVehicleViewController.h; sourceTree = "<group>"; };
 		DE45025716B80592003651FD /* RKTVehicleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKTVehicleViewController.m; sourceTree = "<group>"; };
 		DE45025E16B85756003651FD /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		DE4CDD5F16BC382300FFEE52 /* Aeroplane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aeroplane.h; sourceTree = "<group>"; };
-		DE4CDD6016BC382300FFEE52 /* Aeroplane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aeroplane.m; sourceTree = "<group>"; };
-		DE4CDD6116BC382300FFEE52 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
-		DE4CDD6216BC382300FFEE52 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
-		DE4CDD6516BC383700FFEE52 /* _Aeroplane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Aeroplane.h; sourceTree = "<group>"; };
-		DE4CDD6616BC383700FFEE52 /* _Aeroplane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Aeroplane.m; sourceTree = "<group>"; };
-		DE4CDD6716BC383700FFEE52 /* _Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Category.h; sourceTree = "<group>"; };
-		DE4CDD6816BC383700FFEE52 /* _Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Category.m; sourceTree = "<group>"; };
-		DE4CDD7016BD5F8B00FFEE52 /* _RemoteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RemoteObject.h; sourceTree = "<group>"; };
-		DE4CDD7116BD5F8B00FFEE52 /* _RemoteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RemoteObject.m; sourceTree = "<group>"; };
-		DE4CDD7216BD5F8B00FFEE52 /* RemoteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteObject.h; sourceTree = "<group>"; };
-		DE4CDD7316BD5F8B00FFEE52 /* RemoteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteObject.m; sourceTree = "<group>"; };
+		DE4CDD5F16BC382300FFEE52 /* RKTAeroplane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKTAeroplane.h; sourceTree = "<group>"; };
+		DE4CDD6016BC382300FFEE52 /* RKTAeroplane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKTAeroplane.m; sourceTree = "<group>"; };
+		DE4CDD6116BC382300FFEE52 /* RKTCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKTCategory.h; sourceTree = "<group>"; };
+		DE4CDD6216BC382300FFEE52 /* RKTCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKTCategory.m; sourceTree = "<group>"; };
+		DE4CDD7216BD5F8B00FFEE52 /* RKTRemoteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKTRemoteObject.h; sourceTree = "<group>"; };
+		DE4CDD7316BD5F8B00FFEE52 /* RKTRemoteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKTRemoteObject.m; sourceTree = "<group>"; };
+		DEDAB6A11859C1EE007795CE /* _RKTAeroplane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RKTAeroplane.h; sourceTree = "<group>"; };
+		DEDAB6A21859C1EE007795CE /* _RKTAeroplane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RKTAeroplane.m; sourceTree = "<group>"; };
+		DEDAB6A31859C1EE007795CE /* _RKTCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RKTCategory.h; sourceTree = "<group>"; };
+		DEDAB6A41859C1EE007795CE /* _RKTCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RKTCategory.m; sourceTree = "<group>"; };
+		DEDAB6A51859C1EE007795CE /* _RKTRemoteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RKTRemoteObject.h; sourceTree = "<group>"; };
+		DEDAB6A61859C1EE007795CE /* _RKTRemoteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RKTRemoteObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,21 +145,29 @@
 		DE4CDD6E16BC3DCA00FFEE52 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				DEDAB6AA1859C1F0007795CE /* Generated */,
 				DE45025D16B85756003651FD /* Model.xcdatamodeld */,
-				DE4CDD6516BC383700FFEE52 /* _Aeroplane.h */,
-				DE4CDD6616BC383700FFEE52 /* _Aeroplane.m */,
-				DE4CDD6716BC383700FFEE52 /* _Category.h */,
-				DE4CDD6816BC383700FFEE52 /* _Category.m */,
-				DE4CDD5F16BC382300FFEE52 /* Aeroplane.h */,
-				DE4CDD6016BC382300FFEE52 /* Aeroplane.m */,
-				DE4CDD6116BC382300FFEE52 /* Category.h */,
-				DE4CDD6216BC382300FFEE52 /* Category.m */,
-				DE4CDD7016BD5F8B00FFEE52 /* _RemoteObject.h */,
-				DE4CDD7116BD5F8B00FFEE52 /* _RemoteObject.m */,
-				DE4CDD7216BD5F8B00FFEE52 /* RemoteObject.h */,
-				DE4CDD7316BD5F8B00FFEE52 /* RemoteObject.m */,
+				DE4CDD5F16BC382300FFEE52 /* RKTAeroplane.h */,
+				DE4CDD6016BC382300FFEE52 /* RKTAeroplane.m */,
+				DE4CDD6116BC382300FFEE52 /* RKTCategory.h */,
+				DE4CDD6216BC382300FFEE52 /* RKTCategory.m */,
+				DE4CDD7216BD5F8B00FFEE52 /* RKTRemoteObject.h */,
+				DE4CDD7316BD5F8B00FFEE52 /* RKTRemoteObject.m */,
 			);
 			name = CoreData;
+			sourceTree = "<group>";
+		};
+		DEDAB6AA1859C1F0007795CE /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				DEDAB6A11859C1EE007795CE /* _RKTAeroplane.h */,
+				DEDAB6A21859C1EE007795CE /* _RKTAeroplane.m */,
+				DEDAB6A31859C1EE007795CE /* _RKTCategory.h */,
+				DEDAB6A41859C1EE007795CE /* _RKTCategory.m */,
+				DEDAB6A51859C1EE007795CE /* _RKTRemoteObject.h */,
+				DEDAB6A61859C1EE007795CE /* _RKTRemoteObject.m */,
+			);
+			name = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,15 +270,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE45024216B802EE003651FD /* main.m in Sources */,
+				DEDAB6A71859C1EE007795CE /* _RKTAeroplane.m in Sources */,
 				DE45024616B802EE003651FD /* RKTAppDelegate.m in Sources */,
+				DEDAB6A81859C1EE007795CE /* _RKTCategory.m in Sources */,
 				DE45025816B80592003651FD /* RKTVehicleViewController.m in Sources */,
 				DE45025F16B85756003651FD /* Model.xcdatamodeld in Sources */,
-				DE4CDD6316BC382300FFEE52 /* Aeroplane.m in Sources */,
-				DE4CDD6416BC382300FFEE52 /* Category.m in Sources */,
-				DE4CDD6916BC383700FFEE52 /* _Aeroplane.m in Sources */,
-				DE4CDD6A16BC383700FFEE52 /* _Category.m in Sources */,
-				DE4CDD7416BD5F8B00FFEE52 /* _RemoteObject.m in Sources */,
-				DE4CDD7516BD5F8B00FFEE52 /* RemoteObject.m in Sources */,
+				DE4CDD6316BC382300FFEE52 /* RKTAeroplane.m in Sources */,
+				DE4CDD6416BC382300FFEE52 /* RKTCategory.m in Sources */,
+				DE4CDD7516BD5F8B00FFEE52 /* RKTRemoteObject.m in Sources */,
+				DEDAB6A91859C1EE007795CE /* _RKTRemoteObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +359,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RestKitTutorial/RestKitTutorial-Prefix.pch";
 				INFOPLIST_FILE = "RestKitTutorial/RestKitTutorial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -363,6 +372,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RestKitTutorial/RestKitTutorial-Prefix.pch";
 				INFOPLIST_FILE = "RestKitTutorial/RestKitTutorial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
