@@ -7,6 +7,8 @@
 //
 
 #import "RKTAppDelegate.h"
+#import "RKTCategory.h"
+#import "RKTAeroplane.h"
 
 @implementation RKTAppDelegate
 
@@ -83,7 +85,7 @@
                                                   @"createdAt" : @"createdAt",
                                                   };
     
-    RKEntityMapping *categoryMapping = [RKEntityMapping mappingForEntityForName:NSStringFromClass([Category class]) inManagedObjectStore:manager.managedObjectStore];
+    RKEntityMapping *categoryMapping = [RKEntityMapping mappingForEntityForName:NSStringFromClass([RKTCategory class]) inManagedObjectStore:manager.managedObjectStore];
     categoryMapping.identificationAttributes = @[ @"objectId" ];
     [categoryMapping addAttributeMappingsFromDictionary:@{
      @"name" : @"name"
@@ -91,7 +93,7 @@
     [categoryMapping addAttributeMappingsFromDictionary:parentObjectMapping];
     
         
-    RKEntityMapping *aeroplaneMapping = [RKEntityMapping mappingForEntityForName:NSStringFromClass([Aeroplane class]) inManagedObjectStore:managedObjectStore];
+    RKEntityMapping *aeroplaneMapping = [RKEntityMapping mappingForEntityForName:NSStringFromClass([RKTAeroplane class]) inManagedObjectStore:managedObjectStore];
     aeroplaneMapping.identificationAttributes = @[ @"objectId" ];
     [aeroplaneMapping addAttributeMappingsFromDictionary:@{
      @"manufacturer" : @"manufacturer",
