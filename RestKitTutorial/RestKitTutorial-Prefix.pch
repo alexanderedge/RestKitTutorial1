@@ -16,7 +16,5 @@
     #import <MobileCoreServices/MobileCoreServices.h>
 
     #import <RestKit/RestKit.h>
-    #import "Category.h"
-    #import "Aeroplane.h"
 
 #endif
