@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="12C60" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Aeroplane" representedClassName="Aeroplane" parentEntity="RemoteObject" syncable="YES">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5029" systemVersion="13A598" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="RKTAeroplane" representedClassName="RKTAeroplane" parentEntity="RKTRemoteObject" syncable="YES">
         <attribute name="manufacturer" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="model" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="passengers" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <relationship name="category" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="aeroplanes" inverseEntity="Category" syncable="YES"/>
+        <relationship name="category" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="RKTCategory" inverseName="aeroplanes" inverseEntity="RKTCategory" syncable="YES"/>
     </entity>
-    <entity name="Category" representedClassName="Category" parentEntity="RemoteObject" syncable="YES">
+    <entity name="RKTCategory" representedClassName="RKTCategory" parentEntity="RKTRemoteObject" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="aeroplanes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Aeroplane" inverseName="category" inverseEntity="Aeroplane" syncable="YES"/>
+        <relationship name="aeroplanes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RKTAeroplane" inverseName="category" inverseEntity="RKTAeroplane" syncable="YES"/>
     </entity>
-    <entity name="RemoteObject" representedClassName="RemoteObject" isAbstract="YES" syncable="YES">
+    <entity name="RKTRemoteObject" representedClassName="RKTRemoteObject" isAbstract="YES" syncable="YES">
         <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Aeroplane" positionX="-198" positionY="-54" width="128" height="103"/>
-        <element name="Category" positionX="43" positionY="-30" width="128" height="75"/>
-        <element name="RemoteObject" positionX="-90" positionY="-252" width="128" height="90"/>
+        <element name="RKTAeroplane" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="RKTCategory" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="RKTRemoteObject" positionX="0" positionY="0" width="0" height="0"/>
     </elements>
 </model>
