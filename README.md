@@ -1,6 +1,6 @@
 ##Introduction to RestKit 0.20
 
-This is the supporting project for an introduction to RestKit 0.20 as featured on [my blog](http://blog.alexedge.co.uk/introduction-to-restkit-0-20/).
+This is the supporting project for an introduction to RestKit 0.20.
 
 ##Instructions
 
